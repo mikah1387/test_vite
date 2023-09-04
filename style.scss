@@ -1,0 +1,43 @@
+
+@import '/css/reset';
+@import '/css/variables';
+@import '/css/mixin';
+
+*{
+
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+
+  background-color:$green;
+  margin: auto;
+}
+
+div{
+
+  width: 50px;
+  height: 50px;
+  margin:auto;
+  background-color: rgb(143, 163, 143);
+}
+
+.twoo{
+
+  background: rgb(46, 44, 44);
+}
+
+.tree,.four,.five{
+
+  width: 100px;
+  height: 100px;
+  background: url(./images/logo_hakim_rs.png);
+}
+button{
+ display: block;
+  margin: 40px auto;
+
+}
+
